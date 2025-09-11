@@ -1,0 +1,36 @@
+
+/* ========== Seletor Universal ========== */
+*{
+  font-family: Times New Roman;  
+}
+
+/*========== Seletor Tag HTML ==========*/
+body{
+    background: linear-gradient(to top, #b33c81,#ffddbe, #f4d5cb );
+}
+h1{
+    color:#710E46;
+}
+ul{
+    color: #BD0E5E;
+    font-size: 20px;
+}
+p{
+    color: #40085E;
+    font-size: 20px;
+}
+a{
+    color:#fb00ff;
+    text-decoration: none;
+}
+
+/*========== Seletor Class ===========*/
+.paragrafo-02{
+    color:#4552AA;
+    font-size: 20px;
+}
+
+/*========== Seletor ID ==========*/
+#paragrafo-03{
+    color: #d2155d;
+}

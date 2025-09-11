@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula - 04 - Formulários</title>
+    </head>
+    <body>
+        <h1><u>Formulários</u></h1>
+
+        <ul>
+            <li><h2>Primeiro Formulário de Cadastro</h2></li>
+        </ul>
+        <form action="processa.php" method="post">
+
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nome" required>    <!--nome, caixa de texto-->     
+            <br>
+
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email" required>          <!--email-->
+            <br>
+            <br>
+
+            <input type="radio" id="opcao1" name="escolha" value="1">
+            <label for="opcao1">Primeira opção</label>                         <!--radio button-->
+            <input type="radio" id="opcao2" name="escolha" value="2" >
+            <label for="opcao2">Segunda Opção</label>
+            
+            <hr>
+            <br>
+
+            <input type="checkbox" id="noticias" name="interesses" value="noticias">
+            <label for="noticias">Receber notícias</label>                              <!--checkbox-->
+            <input type="checkbox" id="promocoes" name="interesses" value="prom
+            ocoes" checked>
+            <label for="promocoes">Receber promoções</label>
+
+            <hr>
+            <br>
+
+            <label for="cores">Escolha sua cor favorita:</label><br>
+            <select id="cores" name="cores" size="3">
+                <option value="vermelho">Vermelho</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="carros">Escolha um carro:</label>
+            <select id="carros" name="carros">
+                <optgroup label="Sedans">
+                    <option value="corolla">Toyota Corolla</option>
+                    <option value="civic">Honda Civic</option>
+                </optgroup>
+                <optgroup label="SUVs">
+                    <option value="crv">Honda CR-V</option>
+                    <option value="rav4" disabled>Toyota RAV4</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <br>
+        <hr>
+
+        <ul>
+            <li><h2>Segundo Formulário de Cadastro</h2></li>
+        </ul>
+
+        <br>
+        <form action="/submit" method="post">
+            <!-- Campo de texto -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <!-- Campo de e-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+
+            <!-- Campo de senha -->
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <!-- Campo numérico -->
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="1" max="120" required>
+
+            <br>
+            <br>
+            <!-- Utilizado para pular linha para melhorar a visibilidade do exemplo -->
+
+            <!-- Botões de rádio -->
+            <label>Gênero:</label>
+            <input type="radio" id="masculino" name="genero" value= "masculino"required>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+
+            <br>
+            <br>
+
+            <!-- Utilizado para pular linha para melhorar a visibilidade do exemplo -->
+
+            <!-- Caixas de seleção -->
+            <label>Interesses:</label>
+
+            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label>
+
+            <input type="checkbox" id="esportes" name="interesses" value="esportes">
+            <label for="esportes">Esportes</label>
+
+            <input type="checkbox" id="arte" name="interesses" value="arte">
+            <label for="arte">Arte</label>
+
+            <br>
+            <br>
+            <!-- Utilizado para pular linha para melhorar a visibilidade do exemplo -->
+            
+            <!-- Botão de envio - submit -->
+            <button type="submit">Enviar</button>
+
+            <br>
+            <hr>
+
+            <ul>
+                <li><h3>Comentários</h3></li>
+            </ul>
+
+            <label for="resumo">Resumo:</label>
+            <br>
+
+            <textarea id="resumo" name="resumo" rows="6" cols="60" max-length="300" required>   Sou apaixonado por tecnologia e adoro explorar novas linguagens de programação.
+            </textarea>
+
+            <br>
+            <br>
+
+            <button type="submit">Enviar</button>
+
+            <br>
+            <br>
+            
+        </form>
+
+    </body>
+</html>

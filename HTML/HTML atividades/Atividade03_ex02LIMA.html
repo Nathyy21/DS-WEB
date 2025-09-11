@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade03 Exercício 02 - Formulários</title>
+    </head>
+    <body>
+
+        <h2 align="center">Exercício 02-Formulário de Pesquisa de Preferências</h2>
+
+        <hr>
+        <br>
+
+        <form action="processa.php" method="post">
+
+            <label>Gênero:</label>
+            <input type="radio" id="masculino" name="genero" value= "masculino" required>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+
+            <input type="radio" id="outro" name="genero" value="outro" checked>
+            <label for="outro">Outro</label>
+
+            <br>
+            <br>
+
+            <label>Interesses:</label>
+
+            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia"  required>
+            <label for="tecnologia">Tecnologia</label>
+
+            <input type="checkbox" id="esportes" name="interesses" value="esportes">
+            <label for="esportes">Esportes</label>
+
+            <input type="checkbox" id="arte" name="interesses" value="arte">
+            <label for="arte">Arte</label>
+
+            <input type="checkbox" id="musica" name="interesses" value="musica" checked>
+            <label for="musica">Música</label>
+
+            <br>
+            <br>
+
+            <label for="carros">Escolha seu carro favorito:</label><br>
+            <select multiple id="carros" name="carros">
+                <optgroup label="Sedans">
+                    <option value="corolla">Toyota Corolla</option>
+                    <option value="civic">Honda Civic</option>
+                </optgroup>
+                <optgroup label="SUVs">
+                    <option value="crv">Honda CR-V</option>
+                    <option value="rav4">Toyota RAV4</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+            <input type="submit" value="Enviar"> 
+        </form>
+    </body>
+</html>

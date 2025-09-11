@@ -1,0 +1,11 @@
+.container {
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite a quebra de linha se necessário */
+  }
+  
+  .coluna {
+    flex: 1; /* Faz com que as colunas ocupem espaço igual */
+    padding: 10px;
+    /* Defina um width para o container para garantir as colunas */
+    /* ou para cada coluna se necessário */
+  }

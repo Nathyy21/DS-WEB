@@ -1,0 +1,124 @@
+/* table,td,th{
+    border:2px solid black;
+   border-collapse: collapse; 
+}
+table,td,th{
+    border:2px solid black;
+   border-collapse: collapse; 
+}
+a{
+
+    font-size: 13px;
+    color: #413e84;
+    font-family: Verdana;
+
+}
+body{
+    background:linear-gradient(to top, #1e1145 , #f7f9f7 80%, #e6e280 );
+
+
+}
+
+h1{
+    text-align: center;
+    color: #210124;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h3{
+    color: #0d3875;
+    font-family: 'Verdana';
+    font-size: 20px;
+ 
+}
+img{
+    border-radius: 10px;
+    border: 15px double;
+    border-color: #724e22;
+}
+th{
+    background-color: #e0e5c9;
+}
+td{
+    background-color: rgb(242, 245, 220);
+}
+.img{
+    background-color:#21074b;
+}
+h3{
+    color: #041536;
+
+}
+p{
+    font-family:sans-serif;
+    font-size:16px
+}
+h2{
+    font-family:Verdana;
+    color: #4b3807;
+}
+*/
+table,td,th{
+    border:2px solid black;
+   border-collapse: collapse; 
+}
+table,td,th{
+    border:2px solid black;
+   border-collapse: collapse; 
+}
+a{
+
+    font-size: 13px;
+    color: #183020;
+    font-family: Verdana;
+
+}
+body{
+    background:linear-gradient(to top, #750D37 5%, #f7f9f7, #96c2a5 );
+
+
+}
+
+h1{
+    text-align: center;
+    color: #210124;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h3{
+    color: #750D37;
+    font-family: 'Verdana';
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    border: 15px double;
+    border-color: #688f75;
+}
+th{
+    background-color: #e5c9d5;
+}
+td{
+    background-color: rgb(220, 245, 240);
+}
+.img{
+    background-color:#4B072E;
+}
+h3{
+    color: #360429;
+
+}
+p{
+    font-family:sans-serif;
+    font-size:16px
+}
+h2{
+    font-family:Verdana;
+    color: #4B072E;
+}
+
+
+
