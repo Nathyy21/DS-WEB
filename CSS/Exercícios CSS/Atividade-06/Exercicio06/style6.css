@@ -1,0 +1,15 @@
+.box1{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 150px;
+}
+.box2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+    width: 400px;
+    height: 80px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}

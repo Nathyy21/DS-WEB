@@ -1,0 +1,17 @@
+.box1{
+    background-color: cadetblue;
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.box2{
+    background-color: #3a6068;
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    text-align: center;
+    align-content: center;
+}

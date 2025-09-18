@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+.divCentro{
+    margin: 0 auto;
+    width: 300px;
+}
+
+.cont1{
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+} 
+
+.cont2{
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.box1{
+    background-color:aquamarine;
+
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 10px 50px; /*margens de top/bottom e left/right*/
+    text-align: center;
+    align-content: center;
+}
+
+.box2{
+    background-color: palevioletred;
+
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 10px 50px;
+    text-align: center;
+    align-content: center;
+    
+}

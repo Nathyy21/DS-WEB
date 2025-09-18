@@ -1,0 +1,21 @@
+.box1{
+    background-color: violet;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+
+.box2{
+    background-color: paleturquoise;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
