@@ -1,0 +1,25 @@
+.maior{
+    background-color: #801515;
+    color: aliceblue;
+    text-align:center;
+    align-content: center;
+
+    width: 400px;
+    height: 300px;
+
+    position: relative;
+}
+
+.menor{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

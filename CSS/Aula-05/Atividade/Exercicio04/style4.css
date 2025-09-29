@@ -1,0 +1,17 @@
+.caixa{
+    background-color: #801515;
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+
+    height: 60px;
+
+    position: sticky;
+    top: 0;
+}
+
+.conteudo{
+    background-color: gainsboro;
+    width: 250px;
+    height: 2000px;
+}

@@ -1,0 +1,53 @@
+div{
+    text-align: center;
+    align-content: center;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+
+    color: antiquewhite;
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+}
+
+.caixaSticky{
+    width: 200px;
+    height: 50px;
+    background-color: chocolate;
+    margin: 100px 0px 0px 200px;
+
+    position: sticky;
+    top: 0;
+}
+
+.caixa1{
+    position: relative;
+    width: 100px;
+    height: 2000px;
+    background-color: aquamarine;
+
+    top: 50px;
+}
+
+.caixaABS{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+
+    position: absolute;
+    right: 0px;
+
+}
+
+.caixaAbsoluta{
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
