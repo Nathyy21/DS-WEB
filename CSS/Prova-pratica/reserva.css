@@ -59,20 +59,23 @@ h3{
 .formulario{
     background-color: #fef0ff;
     width: 450px;
-    height: 550px;
+    height: 650px;
     padding: 40px 65px 40px 65px;
 
     align-content: center;
     align-items: center;
     margin-left: 31%;
+    margin-top: 27px;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
     font-weight: 400;
     font-size: 14px;
 }
 input{
     border: #2c072a solid 2px;
     border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0px;
 }
 textarea{
     border: #2c072a solid 2px;
@@ -80,4 +83,30 @@ textarea{
 }
 label{
     color: #4f185d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#envio{
+    background-color: #551264;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    padding: 5px;
+}
+#envio :hover{
+    background-color: #863798;
+}
+h4{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c072a;
+    text-transform: uppercase;
+    margin-top: 22px;
+    background-color: #e67dfe;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
 }

@@ -75,3 +75,11 @@ table{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #72497b;
 }
+.preco{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2f1a34;
+    text-align: end;
+    margin: 35px 20px;
+}
