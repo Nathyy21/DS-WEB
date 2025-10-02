@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservas de Sabor & Arte</title>
+        <link rel="stylesheet" href="reserva.css">
+    </head>
+    <body>
+        <div class="fundo">
+            <center>
+            <div class="inicial">
+                <a href="index.html">Início</a>  
+            </div>
+            <div class="cardapio">
+                <a href="cardapio.html">Cardápio</a>                   <!-- menu -->
+            </div>
+            <h1 class="titulo">Sabor&Arte</h1>
+            <div class="promo">
+                <a href="promo.html">Promoções</a>
+            </div>
+            <div class="reserva">
+                <a href="reserva.html">Reservas</a>
+            </div>
+            </center>
+        </div>
+        <br>
+        <br>
+        <h3>reservas</h3>
+        <br>
+        <br>
+
+        <div class="formulario">
+            <form action="processa.php" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome...">
+    
+                <br>
+                <br>
+                <br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="ex: (99)9999-9999">
+    
+                <br>
+                <br>
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+    
+                <br>
+                <br>
+                <br>
+
+                <label for="quantPessoas">Quantidade de Pessoas: (Máximo de 15 pessoas por reserva)</label><br>
+                <input type="number" id="quantP" name="quantP" min="1" max="15">
+    
+                <br>
+                <br>
+                <br>
+
+                <label for="data">Dia da reserva:</label><br>
+                <input type="date" id="data" name="data">
+
+                <br>
+                <br>
+                <br>
+                
+                <label for="coment">Complementos:</label><br>
+                <textarea id="coment" name="coment" minlength="5" maxlength="200" rows="4" cols="60" placeholder="Mensagens adicionais caso houver alguma necessidade"></textarea>
+                
+                <br>
+                <br>
+                <br>
+
+                <button type="submit" id="envio">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>
