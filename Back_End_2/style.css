@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3e0b90;
+    font-weight: 450;
+}
+a{
+    text-decoration: none;
+    color:#05557d;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color:#1e80b2;
+}
