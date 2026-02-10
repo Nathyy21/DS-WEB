@@ -19,6 +19,7 @@
         }
     }
     $apartamento = new Casa();
+
     $apartamento->cor = "Azul";
     echo $apartamento->pintar();
 
@@ -57,6 +58,7 @@
         }
     }
     $camisa = new Roupa();
+
     $camisa->cor = "Vermelha";
     echo $camisa->vestir();
 
@@ -94,6 +96,7 @@
         }
     }
     $estojoEscolar = new Estojo();
+
     $estojoEscolar->tamanho = "Grande";
     echo $estojoEscolar->guardar();
 
@@ -119,22 +122,38 @@
         public $material;
 
         public function perfumar(){
-            return "Esse perfume tem essência de ".$this->essencia;
+            return "Esse Body Splash tem essência de ".$this->essencia;
         }
 
         public function limpar(){
-            return "Tirei o pó de um perfume ".$this->tamanho;
+            return "Tirei o pó de um Body Splash ".$this->tamanho;
         }
 
         public function vender(){
-            return "Vendi um perfume do formato de um(a) ".$this->formato;
+            return "Vendi um Body Splash do formato de um(a) ".$this->formato;
         }
     }
     
+    $bodySplash = new Perfume();
+
+    $bodySplash->essencia = "Baunilha";
+    echo $bodySplash->perfumar();
+
+    echo '<br>';
+
+    $bodySplash->tamanho = "Pequeno";
+    echo $bodySplash->limpar();
+
+    echo '<br>';
+
+    $bodySplash->vender = "Flor";
+    echo $bodySplash->vender();
+
+    echo "<br><br>";
     ?>
 
     <?php
-    class Lápis {
+    class Lapis {
         public $material;
         public $modelo;
         public $cor;
@@ -142,7 +161,7 @@
         public $marca;
 
         public function escrever(){
-            return "Fiz uma carta com o lápis da ".$this->marca;
+            return "Fiz uma carta com a lapiseira da ".$this->marca;
         }
 
         public function apontar(){
@@ -150,7 +169,23 @@
         }
 
         public function quebrar(){
-            return "Quebrei meu lápis ".$this->cor;
+            return "Quebrei minha lapiseira ".$this->cor;
         }
     }
+    $lapiseira = new Lapis();
+    
+    $lapiseira->marca = "Faber-Castell";
+    echo $lapiseira->escrever();
+
+    echo '<br>';
+
+    $lapiseira->tamanho = "Médio";
+    echo $lapiseira->apontar();
+
+    echo '<br>';
+
+    $lapiseira->cor = "Roxo";
+    echo $lapiseira->quebrar();
+
+    echo "<br><br>";
     ?>

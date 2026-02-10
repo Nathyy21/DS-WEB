@@ -36,4 +36,3 @@ if(nome == null){
 else{
     alert('Olá ' + nome+ '!');
 }
-
