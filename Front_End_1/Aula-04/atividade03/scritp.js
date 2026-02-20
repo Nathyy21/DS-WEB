@@ -11,7 +11,7 @@ function cadastrar(){
     let novoCdTel = document.getElementById('telefone').value;
     let novoCdTurma = document.getElementById('turma').value;
 
-    novoAluno.textContent = contador_aluno + ' - ' + novoCdNome + ' | ' + novoCdEmail +' | ' + novoCdRA + ' | ' + novoCdTel + ' | ' + novoCdTurma + '  ';
+    novoAluno.innerHTML = contador_aluno + ' - ' + ' Nome: ' + novoCdNome + ' <br> ' + '  Email: ' + novoCdEmail +' <br> ' +  '  RA: ' +novoCdRA + ' <br> ' +  '  Telefone: ' +novoCdTel + ' <br> ' +  '  Turma: ' +novoCdTurma + '<br>';
 
     novoAluno.setAttribute('id',contador_aluno);
 
