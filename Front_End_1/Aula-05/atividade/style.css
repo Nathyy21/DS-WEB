@@ -1,0 +1,27 @@
+.sol{
+    width: 120px;
+    align-items: center;
+    align-content: center;
+    padding-right:75px;
+}
+.lua{
+    width: 80px;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.botaoFundo{
+    background-image:linear-gradient(to right, rgb(236, 225, 169) 35%, rgb(18, 103, 173));
+    width: 300px;
+    height: 120px;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.evee{
+    width: 300px;
+}
