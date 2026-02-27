@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .quadrado{
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 100px;
+            position:absolute;
+        }
+
+        p{
+            margin-top: 50px;
+            margin-left: 50px;
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="quadrado">
+
+    </div>
+    <p> </p>
+</body>
+<script>
+    var quadrado = document.getElementById("quadrado")
+
+    window.addEventListener("scroll", () => {
+        quadrado.style.left = window.scrollY + "px";
+        quadrado.style.top = window.scrollY +50+ "px";
+    });
+</script>
+</html>

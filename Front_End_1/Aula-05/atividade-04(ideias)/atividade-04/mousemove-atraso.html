@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mousemove-atraso</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .quadrado{
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 100px;
+            position:absolute;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="quadrado">
+
+    </div>
+</body>
+<script>
+    var quadrado = document.getElementById("quadrado")
+    var  x = 0, y = 0;
+
+    document.addEventListener("mousemove", function(event){
+        y = event.clientY
+        x = event.clientX
+    });
+
+    setInterval(function () {
+        quadrado.style.marginTop = y + "px"
+        quadrado.style.marginLeft = x + "px"
+    }, 60);
+</script>
+</html>

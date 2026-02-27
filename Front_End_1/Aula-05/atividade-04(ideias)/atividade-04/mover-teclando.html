@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mover-teclando</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .quadrado{
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border-radius: 100px;
+            position:absolute;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="quadrado">
+
+    </div>
+</body>
+<script>
+    var quadrado = document.getElementById("quadrado")
+    var Y = 0
+    var X = 0
+
+    document.addEventListener("keydown", function (event){
+        if(event.key == "s" || event.key == "S"){
+            Y += 10
+            quadrado.style.marginTop = Y + "px"
+        }
+        if(event.key == "w" || event.key == "W"){
+            Y -= 10
+            quadrado.style.marginTop = Y + "px"
+        }
+        if(event.key == "d" || event.key == "D"){
+            X += 10
+            quadrado.style.marginLeft = X + "px"
+        }
+        if(event.key == "a" || event.key == "A"){
+            X -= 10
+            quadrado.style.marginLeft = X + "px"
+        }
+    });
+
+</script>
+</html>

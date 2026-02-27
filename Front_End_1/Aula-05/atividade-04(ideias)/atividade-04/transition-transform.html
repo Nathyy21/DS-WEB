@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition-transform</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .quadrado{
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 100px;
+            position:absolute;
+            transition: transform 0.3s ease;
+            /*transform: translate(x, y);*/
+        }
+
+        p{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="quadrado">
+
+    </div>
+    <p> </p>
+</body>
+<script>
+    var quadrado = document.getElementById("quadrado")
+
+    document.addEventListener("click", e => {
+        quadrado.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        // esse código aplica o efeito CSS -> transform: translate(x, y);
+    });
+</script>
+</html>
