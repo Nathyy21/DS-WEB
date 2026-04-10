@@ -1,0 +1,180 @@
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #d6f6eb;
+  background-image:url(fundoCafe_sanrio.png);
+  background-size: cover;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+
+
+/* ========== Estilização para o Menu ========== */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #252c28;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+/* ========== Estilização do Início ========== */
+
+.titulo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+/* ========== Estilização do Formulário e Tabela ========== */
+
+.box-lado-a-lado{
+  display: flex; /* Ativa o modo Flexbox */
+  justify-content: center; /* Centraliza o bloco todo na tela */
+  align-items: flex-start; /* Alinha os dois pelo topo */
+  gap: 60px; /* Cria um espaçamento de 30px entre o form e a tabela */
+  margin: 20px; /* Margem externa */
+}
+
+/* ========== Estilização do Formulário ========== */
+.formul_cat,.formul_prod,.formul_ped{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+  display: block;
+
+  text-align: center;
+  background-color: #a8c8c7;
+  border-radius: 40px;
+  padding: 25px;
+  box-shadow: 0px 0px 20px #394f4f;
+}
+.formul_cat{
+  width: 400px;
+  height: 300px;
+}
+.formul_prod{
+  width: 400px;
+  height: 550px;
+}
+.formul_ped{
+  width: 400px;
+  height: 350px;
+}
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: #0d1d1b;
+}
+.titulo_form{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: #184c4a;
+  margin-bottom: 60px;
+}
+input{
+  border-left: 0px;
+  border-right:0px;
+  border-top: 0px;
+  border-bottom-color: #111e1a;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 300px;
+  background-color: #aac7c6;
+}
+input:hover{
+  background-color: #88a5a4;
+}
+select{
+  width: 300px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+/* ========== Estilização da Categoria (tabela) ========== */
+.resposta{
+  margin-top: 20px;
+}
+td{
+  font-size: 15px;
+  font-weight: 100;
+}
+th{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #394f4f;
+}
+tr{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+table,td,th{
+  border-collapse: collapse;
+  padding: 10px;
+  /*border: 1px solid #23433c;*/
+}
+
+
+table{
+  width: 700px;
+  text-align: center;
+  margin-bottom: 70px;
+
+  border-radius: 1em;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #394f4f;
+  
+}
+tr:nth-child(even) {background-color: #d4e2df;}
+
+tr:nth-child(odd) {background-color: #c2d6d1;}
+
+tr:hover{background-color: rgba(171, 199, 192, 0.895);}
+
+.botao,.botaoEnviar{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0d1e19;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.botao:hover,.botaoEnviar:hover{background-color: #1e4e3f;}
+
+.botaoEnviar{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+.botao{height: 25px;}
+
+.link_item{
+  color: #132621;
+  text-decoration: none;
+}
+.link_item:hover{text-decoration: underline;}

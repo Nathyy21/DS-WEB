@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cafeteria API</title>
+</head>
+<body>
+    <ul>
+        <li><a href="inicio.html">Início</a></li>
+        <li><a href="pedidos.html">Pedidos</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="#about"></a></li>
+    </ul>
+    <div class="box-lado-a-lado">
+        <div class="formul_prod">
+            <h3 class="titulo_form">Cadastro de Produtos</h3>
+            <label for="nome">Nome do Produto</label><br>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="preco">Preço do Produto</label><br>
+            <input type="text" id="preco" name="preco"><br>
+
+            <label for="id_cat">ID da categoria do Produto</label><br>
+            <input type="text" id="id_cat" name="id_cat"><br>
+
+            <label for="dispon">Disponibilidade do Produto</label><br>
+            <select name="dispon" id="dispon">
+                <option value="1">1</option>
+                <option value="0">0</option>
+            </select><br>
+            <!--<input type="text" id="dispon" name="dispon"><br>-->
+
+
+            <button type="button" id="botaoEnviar" class="botaoEnviar">Cadastrar</button>
+        </div>
+
+        <div id="resposta" class="respostaProd">
+
+        </div>
+    </div>
+    
+</body>
+<script src="./assets/js/produtos.js"></script>
+</html>

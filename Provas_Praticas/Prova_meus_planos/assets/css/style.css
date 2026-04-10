@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #f6d6ec;
+  background-image:url(fundo_kirby.jpg);
+  background-size: cover;
+}
+
+p {
+  margin: 10px;
+}
+
+
+
+/* ========== Estilização para o Menu ========== */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #471c34;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #1b0510;
+}
+
+
+/* ========== Estilização do Início ========== */
+
+.titulo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(63, 3, 71);
+  font-size: 40px;
+}
+.box-index{
+    width: 560px;
+    height: 120px;
+    border-radius: 30px;
+    background-color: rgb(236, 200, 217);
+    box-shadow: 0px 0px 20px #4f3945;
+
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    align-content: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.box-index:hover{
+    transform: scale(1.05);
+}
+
+/* ========== Estilização do Formulário e Tabela ========== */
+
+.box-lado-a-lado{
+    display: flex; /* Ativa o modo Flexbox */
+    justify-content: center; /* Centraliza o bloco todo na tela */
+    align-items: flex-start; /* Alinha os dois pelo topo */
+    gap: 60px; /* Cria um espaçamento de 30px entre o form e a tabela */
+    margin: 20px; /* Margem externa */
+}
+
+/* ========== Estilização do Formulário ========== */
+.formul_cat,.formul_item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    display: block;
+
+    text-align: center;
+    background-color: #c8a8bb;
+    border-radius: 40px;
+    padding: 25px;
+    box-shadow: 0px 0px 20px #4f3945;
+}
+
+.formul_cat{
+  width: 400px;
+  height: 300px;
+}
+.formul_item{
+    width: 400px;
+    height: 400px;
+}
+
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: #1d0d15;
+}
+.titulo_form{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: #4c1835;
+  margin-bottom: 60px;
+}
+.entrada{
+  border-left: 0px;
+  border-right:0px;
+  border-top: 0px;
+  border-bottom-color: #1e1118;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 300px;
+  background-color: #c7aaba;
+}
+input:hover{
+  background-color: #a58897;
+}
+select{
+  width: 300px;
+  height: 40px;
+  margin: 20px 0px;
+  border-radius: 8px;
+  border-color: #3e031e;
+  background-color: #f0d7e4;
+
+}
+
+/* ========== Estilização da Categoria (tabela) ========== */
+.resposta{
+  margin-top: 20px;
+}
+td{
+  font-size: 15px;
+  font-weight: 100;
+}
+th{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #3e031e;
+}
+tr{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+table,td,th{
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.table_cat,.table_item{
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+
+    border-radius: 1em;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #4f3943;
+}
+
+
+tr:nth-child(even) {background-color: #e2d4db;}
+
+tr:nth-child(odd) {background-color: #d6c2cb;}
+
+tr:hover{background-color: rgba(199, 171, 180, 0.895);}
+
+.botao,.botaoEnviar{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1e0d14;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.botao:hover,.botaoEnviar:hover{
+    background-color: #4e1e31; 
+    transform: scale(1.05);
+}
+
+.botaoEnviar{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+.botao{height: 25px;}
+
+.checkbox{
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+}
