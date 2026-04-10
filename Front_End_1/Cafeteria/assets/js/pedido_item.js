@@ -12,7 +12,7 @@ const id = urlParams.get("id")
 
 
 //======= COLOCA O NOME NA COMANDA BASEADO NO ID E NOME ===========
-async function getNomePedido() {
+/*async function getNomePedido() {
     //acessa a rota para pegar os nomes das categorias
     const requisicao = await fetch("http://localhost/cafeteria_api/pedidos")  
     var resposta = await requisicao.json()
@@ -29,7 +29,7 @@ async function getNomePedido() {
     pedidoNome.innerHTML = comanda //cria o nome do pedido
 
 }
-getNomePedido()
+getNomePedido()*/
 
 
 //============ PEGA OS ITENS DO PEDIDO ======================
